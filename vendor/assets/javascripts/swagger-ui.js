@@ -189,7 +189,7 @@ templates['content_type'] = template(function (Handlebars,depth0,helpers,partial
   var buffer = "", stack1, stack2, foundHelper, tmp1, self=this, functionType="function", helperMissing=helpers.helperMissing, undef=void 0;
 
 function program1(depth0,data) {
-  
+
   var buffer = "", stack1, stack2;
   buffer += "\n    ";
   foundHelper = helpers.produces;
@@ -204,7 +204,7 @@ function program1(depth0,data) {
   buffer += "\n";
   return buffer;}
 function program2(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n	<option value=\"";
   stack1 = depth0;
@@ -220,8 +220,8 @@ function program2(depth0,data) {
   return buffer;}
 
 function program4(depth0,data) {
-  
-  
+
+
   return "\n    <option value=\"application/json\">application/json</option>\n";}
 
   buffer += "<label for=\"contentType\"></label>\n<select name=\"contentType\">\n";
@@ -245,7 +245,7 @@ templates['main'] = template(function (Handlebars,depth0,helpers,partials,data) 
   var buffer = "", stack1, stack2, foundHelper, tmp1, self=this, functionType="function", helperMissing=helpers.helperMissing, undef=void 0, escapeExpression=this.escapeExpression;
 
 function program1(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n        , <span style=\"font-variant: small-caps\">api version</span>: ";
   foundHelper = helpers.apiVersion;
@@ -281,7 +281,7 @@ templates['operation'] = template(function (Handlebars,depth0,helpers,partials,d
   var buffer = "", stack1, stack2, foundHelper, tmp1, self=this, functionType="function", helperMissing=helpers.helperMissing, undef=void 0, escapeExpression=this.escapeExpression;
 
 function program1(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n                <h4>Implementation Notes</h4>\n                <p>";
   foundHelper = helpers.notes;
@@ -293,28 +293,28 @@ function program1(depth0,data) {
   return buffer;}
 
 function program3(depth0,data) {
-  
-  
+
+
   return "\n                    <h4>Response Class</h4>\n                    <p><span class=\"model-signature\" /></p>\n                    <br/>\n                    <div class=\"content-type\" />\n                ";}
 
 function program5(depth0,data) {
-  
-  
+
+
   return "\n                    <h4>Parameters</h4>\n                    <table class='fullwidth'>\n                        <thead>\n                        <tr>\n                            <th style=\"width: 100px; max-width: 100px\" >Parameter</th>\n                            <th style=\"width: 310px; max-width: 310px\">Value</th>\n                            <th style=\"width: 200px; max-width: 200px\">Description</th>\n                            <th style=\"width: 320px; max-width: 330px\">Data Type</th>\n                        </tr>\n                        </thead>\n                        <tbody class=\"operation-params\">\n\n                        </tbody>\n                    </table>\n                    ";}
 
 function program7(depth0,data) {
-  
-  
+
+
   return "\n                    <div style='margin:0;padding:0;display:inline'></div>\n                    <h4>Status Codes</h4>\n                    <table class='fullwidth'>\n                        <thead>\n                        <tr>\n                            <th>HTTP Status Code</th>\n                            <th>Reason</th>\n                        </tr>\n                        </thead>\n                        <tbody class=\"operation-status\">\n                        \n                        </tbody>\n                    </table>\n                    ";}
 
 function program9(depth0,data) {
-  
-  
+
+
   return "\n                    ";}
 
 function program11(depth0,data) {
-  
-  
+
+
   return "\n                    <div class='sandbox_header'>\n                        <input class='submit' name='commit' type='button' value='Try it out!' />\n                        <a href='#' class='response_hider' style='display:none'>Hide Response</a>\n                        <img alt='Throbber' class='response_throbber' src='images/throbber.gif' style='display:none' />\n                    </div>\n                    ";}
 
   buffer += "\n    <ul class='operations' >\n      <li class='";
@@ -499,7 +499,7 @@ templates['param'] = template(function (Handlebars,depth0,helpers,partials,data)
   var buffer = "", stack1, stack2, foundHelper, tmp1, self=this, functionType="function", helperMissing=helpers.helperMissing, undef=void 0, escapeExpression=this.escapeExpression;
 
 function program1(depth0,data) {
-  
+
   var buffer = "", stack1, stack2;
   buffer += "\n		";
   foundHelper = helpers.isFile;
@@ -514,7 +514,7 @@ function program1(depth0,data) {
   buffer += "\n	";
   return buffer;}
 function program2(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n			<input type=\"file\" name='";
   foundHelper = helpers.name;
@@ -525,7 +525,7 @@ function program2(depth0,data) {
   return buffer;}
 
 function program4(depth0,data) {
-  
+
   var buffer = "", stack1, stack2;
   buffer += "\n			";
   foundHelper = helpers.defaultValue;
@@ -540,7 +540,7 @@ function program4(depth0,data) {
   buffer += "\n		";
   return buffer;}
 function program5(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n				<textarea class='body-textarea' name='";
   foundHelper = helpers.name;
@@ -556,7 +556,7 @@ function program5(depth0,data) {
   return buffer;}
 
 function program7(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n				<textarea class='body-textarea' name='";
   foundHelper = helpers.name;
@@ -567,7 +567,7 @@ function program7(depth0,data) {
   return buffer;}
 
 function program9(depth0,data) {
-  
+
   var buffer = "", stack1, stack2;
   buffer += "\n		";
   foundHelper = helpers.defaultValue;
@@ -582,7 +582,7 @@ function program9(depth0,data) {
   buffer += "\n	";
   return buffer;}
 function program10(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n			<input minlength='0' name='";
   foundHelper = helpers.name;
@@ -598,7 +598,7 @@ function program10(depth0,data) {
   return buffer;}
 
 function program12(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n			<input minlength='0' name='";
   foundHelper = helpers.name;
@@ -640,12 +640,12 @@ templates['param_list'] = template(function (Handlebars,depth0,helpers,partials,
   var buffer = "", stack1, stack2, foundHelper, tmp1, self=this, functionType="function", helperMissing=helpers.helperMissing, undef=void 0, escapeExpression=this.escapeExpression;
 
 function program1(depth0,data) {
-  
-  
+
+
   return "\n        ";}
 
 function program3(depth0,data) {
-  
+
   var buffer = "", stack1, stack2;
   buffer += "\n            ";
   foundHelper = helpers.defaultValue;
@@ -660,17 +660,17 @@ function program3(depth0,data) {
   buffer += "\n        ";
   return buffer;}
 function program4(depth0,data) {
-  
-  
+
+
   return "\n            ";}
 
 function program6(depth0,data) {
-  
-  
+
+
   return "\n                <option selected=\"\" value=''></option>\n            ";}
 
 function program8(depth0,data) {
-  
+
   var buffer = "", stack1, stack2;
   buffer += "\n            ";
   foundHelper = helpers.isDefault;
@@ -685,7 +685,7 @@ function program8(depth0,data) {
   buffer += "\n        ";
   return buffer;}
 function program9(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n                <option value='";
   foundHelper = helpers.value;
@@ -701,7 +701,7 @@ function program9(depth0,data) {
   return buffer;}
 
 function program11(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n                <option value='";
   foundHelper = helpers.value;
@@ -764,7 +764,7 @@ templates['param_readonly'] = template(function (Handlebars,depth0,helpers,parti
   var buffer = "", stack1, stack2, foundHelper, tmp1, self=this, functionType="function", helperMissing=helpers.helperMissing, undef=void 0, escapeExpression=this.escapeExpression;
 
 function program1(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n        <textarea class='body-textarea' readonly='readonly' name='";
   foundHelper = helpers.name;
@@ -780,7 +780,7 @@ function program1(depth0,data) {
   return buffer;}
 
 function program3(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n        ";
   foundHelper = helpers.defaultValue;
@@ -822,7 +822,7 @@ templates['param_readonly_required'] = template(function (Handlebars,depth0,help
   var buffer = "", stack1, stack2, foundHelper, tmp1, self=this, functionType="function", helperMissing=helpers.helperMissing, undef=void 0, escapeExpression=this.escapeExpression;
 
 function program1(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n        <textarea class='body-textarea'  readonly='readonly' placeholder='(required)' name='";
   foundHelper = helpers.name;
@@ -838,7 +838,7 @@ function program1(depth0,data) {
   return buffer;}
 
 function program3(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n        ";
   foundHelper = helpers.defaultValue;
@@ -880,7 +880,7 @@ templates['param_required'] = template(function (Handlebars,depth0,helpers,parti
   var buffer = "", stack1, stack2, foundHelper, tmp1, self=this, functionType="function", helperMissing=helpers.helperMissing, undef=void 0, escapeExpression=this.escapeExpression;
 
 function program1(depth0,data) {
-  
+
   var buffer = "", stack1, stack2;
   buffer += "\n		";
   foundHelper = helpers.isFile;
@@ -895,7 +895,7 @@ function program1(depth0,data) {
   buffer += "\n	";
   return buffer;}
 function program2(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n			<input type=\"file\" name='";
   foundHelper = helpers.name;
@@ -906,7 +906,7 @@ function program2(depth0,data) {
   return buffer;}
 
 function program4(depth0,data) {
-  
+
   var buffer = "", stack1, stack2;
   buffer += "\n			";
   foundHelper = helpers.defaultValue;
@@ -921,7 +921,7 @@ function program4(depth0,data) {
   buffer += "\n		";
   return buffer;}
 function program5(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n				<textarea class='body-textarea' placeholder='(required)' name='";
   foundHelper = helpers.name;
@@ -937,7 +937,7 @@ function program5(depth0,data) {
   return buffer;}
 
 function program7(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n				<textarea class='body-textarea' placeholder='(required)' name='";
   foundHelper = helpers.name;
@@ -948,7 +948,7 @@ function program7(depth0,data) {
   return buffer;}
 
 function program9(depth0,data) {
-  
+
   var buffer = "", stack1, stack2;
   buffer += "\n		";
   foundHelper = helpers.isFile;
@@ -963,7 +963,7 @@ function program9(depth0,data) {
   buffer += "\n	";
   return buffer;}
 function program10(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n			<input class='required' type='file' name='";
   foundHelper = helpers.name;
@@ -974,7 +974,7 @@ function program10(depth0,data) {
   return buffer;}
 
 function program12(depth0,data) {
-  
+
   var buffer = "", stack1, stack2;
   buffer += "\n			";
   foundHelper = helpers.defaultValue;
@@ -989,7 +989,7 @@ function program12(depth0,data) {
   buffer += "\n		";
   return buffer;}
 function program13(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n				<input class='required' minlength='1' name='";
   foundHelper = helpers.name;
@@ -1005,7 +1005,7 @@ function program13(depth0,data) {
   return buffer;}
 
 function program15(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n				<input class='required' minlength='1' name='";
   foundHelper = helpers.name;
@@ -1559,13 +1559,17 @@ templates['status_code'] = template(function (Handlebars,depth0,helpers,partials
           });
           console.log(bodyParam);
         } else if (isFormPost) {
-          bodyParam = new FormData();
-          _ref3 = this.model.parameters;
-          for (_l = 0, _len3 = _ref3.length; _l < _len3; _l++) {
-            param = _ref3[_l];
-            var paramValue = map[param.name];
-            if (param && paramValue) {
-              bodyParam.append(param.name, map[param.name]);
+          if (JSON.stringify(map) === "{}") {
+            bodyParam = null;
+          } else {
+            bodyParam = new FormData();
+            _ref3 = this.model.parameters;
+            for (_l = 0, _len3 = _ref3.length; _l < _len3; _l++) {
+              param = _ref3[_l];
+              var paramValue = map[param.name];
+              if (param && paramValue) {
+                bodyParam.append(param.name, paramValue);
+              }
             }
           }
         } else {
