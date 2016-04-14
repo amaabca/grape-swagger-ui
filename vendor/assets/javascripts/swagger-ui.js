@@ -1274,9 +1274,10 @@ SwaggerClient.prototype.build = function (mock) {
   }
 
   var self = this;
-
+  debugger;
+  alert(this.url);
   this.progress('fetching resource list: ' + this.url + '; Please wait.');
-
+  debugger;
   var obj = {
     useJQuery: this.useJQuery,
     url: this.url,
@@ -2170,6 +2171,7 @@ Resolver.prototype.resolve = function (spec, arg1, arg2, arg3) {
 
   var expectedCalls = 0, toResolve = [];
   // if the root is same as obj[i].root we can resolve locally
+  debugger;
   var all = resolutionTable;
 
   var parts;
@@ -24610,7 +24612,7 @@ module.exports = function(arr, fn, initial){
   while (idx < len) {
     curr = fn.call(null, curr, arr[idx], ++idx, arr);
   }
-
+  debugger;
   return curr;
 };
 },{}]},{},[1])(1)
